@@ -4,6 +4,7 @@
   "package": "net.irisfeanora.vanadium.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "villager.nodemand.NoDemandMixin"
   ],
   "injectors": {
     "defaultRequire": 1
