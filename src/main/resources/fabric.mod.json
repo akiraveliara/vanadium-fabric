@@ -3,6 +3,8 @@
   "id": "vanadium",
   "version": "${version}",
 
+  "accesswidener": "vanadium.accesswidener",
+
   "name": "Vanadium",
   "description": "1.15.1 mod to backport some later fixes and add some on its own",
   "authors": [

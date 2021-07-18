@@ -3,6 +3,10 @@ plugins {
 	id 'maven-publish'
 }
 
+minecraft {
+	accesswidener = file("src/main/resources/vanadium.accesswidener")
+}
+
 sourceCompatibility = JavaVersion.VERSION_16
 targetCompatibility = JavaVersion.VERSION_16
 
