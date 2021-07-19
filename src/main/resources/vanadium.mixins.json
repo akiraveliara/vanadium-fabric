@@ -7,7 +7,9 @@
     "villager.nodemand.NoDemandMixin",
 
     "villager.universaldiscount.TradeOfferAccessorMixin",
-    "villager.universaldiscount.ZombieVillagerMixin"
+    "villager.universaldiscount.ZombieVillagerMixin",
+
+    "villager.oldrestock.OldRestockMechanicMixin"
   ],
   "injectors": {
     "defaultRequire": 1
