@@ -4,7 +4,7 @@ plugins {
 }
 
 minecraft {
-	accesswidener = file("src/main/resources/vanadium.accesswidener")
+	accessWidener = file("src/main/resources/vanadium.accesswidener");
 }
 
 sourceCompatibility = JavaVersion.VERSION_16

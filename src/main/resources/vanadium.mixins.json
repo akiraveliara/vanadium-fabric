@@ -4,7 +4,10 @@
   "package": "net.irisfeanora.vanadium.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "villager.nodemand.NoDemandMixin"
+    "villager.nodemand.NoDemandMixin",
+
+    "villager.universaldiscount.TradeOfferAccessorMixin",
+    "villager.universaldiscount.ZombieVillagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
