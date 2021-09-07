@@ -9,7 +9,9 @@
     "villager.universaldiscount.TradeOfferAccessorMixin",
     "villager.universaldiscount.ZombieVillagerMixin",
 
-    "villager.oldrestock.OldRestockMechanicMixin"
+    "villager.oldrestock.OldRestockMechanicMixin",
+
+    "villager.babymove.VillagerBabyMoveMixin"
   ],
   "injectors": {
     "defaultRequire": 1
