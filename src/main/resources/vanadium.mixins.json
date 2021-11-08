@@ -11,8 +11,6 @@
 
     "villager.oldrestock.OldRestockMechanicMixin",
 
-    "villager.babymove.VillagerBabyMoveMixin",
-
     "tools.SpongeMissingToolMixin"
   ],
   "injectors": {

@@ -1,6 +1,7 @@
 package net.irisfeanora.vanadium.mixin.tools;
 
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Material;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ShearsItem;
 import org.spongepowered.asm.mixin.Mixin;
@@ -12,7 +13,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class SpongeMissingToolMixin {
     @Inject(method = "getMiningSpeed", at = @At("HEAD"), cancellable = true)
     private void getCustomMaterial(ItemStack itemStack, BlockState blockState, CallbackInfoReturnable<Float> cir) {
-        cir.setReturnValue(5.0F);
-        cir.cancel();
+        if(blockState.getMaterial() == Material.SPONGE) {
+            cir.setReturnValue(5.0F);
+            cir.cancel();
+        }
     }
 }
