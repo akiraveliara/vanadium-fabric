@@ -14,7 +14,7 @@ public class SpongeMissingToolMixin {
     @Inject(method = "getMiningSpeed", at = @At("HEAD"), cancellable = true)
     private void getCustomMaterial(ItemStack itemStack, BlockState blockState, CallbackInfoReturnable<Float> cir) {
         if(blockState.getMaterial() == Material.SPONGE) {
-            cir.setReturnValue(5.0F);
+            cir.setReturnValue(15.0F);
             cir.cancel();
         }
     }

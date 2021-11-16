@@ -11,6 +11,8 @@
 
     "villager.oldrestock.OldRestockMechanicMixin",
 
+    "entity.zombie.ReinforcementFixMixin",
+
     "tools.SpongeMissingToolMixin"
   ],
   "injectors": {
